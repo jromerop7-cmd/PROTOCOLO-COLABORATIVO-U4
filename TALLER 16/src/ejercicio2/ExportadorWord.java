@@ -1,0 +1,7 @@
+package ejercicio2;
+
+public class ExportadorWord implements Exportador {
+    public void exportar(String contenido) {
+        System.out.println("Exportando a Word: " + contenido);
+    }
+}
